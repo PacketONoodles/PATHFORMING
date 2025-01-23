@@ -1,0 +1,167 @@
+Junior Yard
+Student Entrance
+Side Staircase
+Swann Hall
+Lesser Hall
+Swann Corridor
+Swann Corridor
+Swann Corridor
+Library Staircase
+Staircase by Student Entrance
+S001
+S002
+S003
+S004
+S005
+S006
+Behind Stage Corridor
+Behind Stage Corridor
+Behind Stage Corridor
+Behind Stage Corridor
+Behind Stage Corridor
+Behind Stage Corridor
+Behind Stage Corridor
+S014
+S015
+S016
+S017
+S018
+S021
+S022
+S023
+S024
+S025
+S026
+S027
+Swann Left Staircase
+Swann Right Staircase
+S101
+S102
+S103
+S104
+S105
+S106
+
+Burnham Left Corridor
+Burnham Left Corridor
+Burnham Left Corridor
+Burnham Right Corridor
+Burnham Right Corridor
+Burnham Right Corridor
+Drama Studio
+BOO3
+BOO5
+B006
+B010
+B011
+Dining Hall
+Burnham Corridor First Floor
+Burnham Corridor First Floor
+Burnham Corridor First Floor
+Burnham Corridor First Floor
+B101
+B102
+B103
+B104
+B105
+B106
+B107
+
+Forster Corridor
+Forster Corridor
+Forster Corridor First Floor
+Forster Corridor First Floor
+Forster Corridor First Floor
+F001
+F002
+F003
+F004
+F005
+F006
+F007
+F008
+
+
+Middle Yard
+MFL Building
+M001
+M002
+M003
+M004
+M101
+M102
+M103
+M104
+Business Office
+
+Ander
+A005
+A006
+Senior Common Room
+Senior Common Room
+Senior Common Room Catering
+ILA
+Sports Hall
+A101
+A102
+A103
+A104
+A105
+
+
+Crellin Corridor
+Crellin Corridor
+Crellin Corridor
+Crellin Corridor
+C010
+C011
+C012
+C013
+C014
+C015
+C016
+Crellin Corridor First Floor
+Crellin Corridor First Floor
+Crellin Corridor First Floor
+Crellin Corridor First Floor
+Crellin Corridor First Floor
+C101
+C102
+C103
+C104
+C105
+C106
+C107
+C108
+C109
+C110
+C111
+Crellin Corridor Second Floor
+Crellin Corridor Second Floor
+Crellin Corridor Second Floor
+Crellin Corridor Second Floor
+C201
+C202
+C203
+C204
+C205
+C206
+C207
+C208
+Reception
+Student Services
+
+Powell Downstairs Corridor
+Powell Downstairs Corridor
+P001
+P002
+P003
+P004
+Powell Upstairs Corridor
+Powell Upstairs Corridor
+Powell Upstairs Corridor
+P101
+P102
+P103
+P104
+P105
