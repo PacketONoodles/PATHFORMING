@@ -12,6 +12,7 @@ namespace PATHFORMING_IV
 
 
         public static Graph school = new Graph(197);
+        bool imagehidden;
         public static string pathways = "";
 
         public void Form1_Load(object sender, EventArgs e)
@@ -26,6 +27,7 @@ namespace PATHFORMING_IV
             Label DirectiosnOutput = new Label();
             TextBox InitialRoomInput = new TextBox();
             TextBox EndRoomInput = new TextBox();
+            PictureBox MapImage = new PictureBox();
 
             InitialRoomLabel.Location = new Point(30, 27);
             InitialRoomLabel.Name = "InitialRoomLabel";
@@ -53,7 +55,7 @@ namespace PATHFORMING_IV
             MapButton.Click += MapButton_Clicked;
             MapButton.Font = new Font("Sitka Text", 9F, FontStyle.Regular, GraphicsUnit.Point);
 
-            DirectiosnOutput.Location = new Point(500, 75);
+            DirectiosnOutput.Location = new Point(450, 75);
             DirectiosnOutput.Name = "DirectiosnOutput";
             DirectiosnOutput.AutoSize = true;
             DirectiosnOutput.Text = "";
@@ -71,6 +73,15 @@ namespace PATHFORMING_IV
             EndRoomInput.Leave += textBox_TextChanged;
             EndRoomInput.Font = new Font("Sitka Text", 9.749999F, FontStyle.Regular, GraphicsUnit.Point);
 
+            MapImage.Location = new Point(700, 0);
+            MapImage.Name = "MapImage";
+            MapImage.ImageLocation = "U:/final.png";
+            MapImage.Size = new Size(770,500);
+            MapImage.SizeMode = PictureBoxSizeMode.StretchImage;
+            MapImage.Hide();
+            imagehidden = true;
+            
+
             Controls.Add(InitialRoomLabel);
             Controls.Add(EndRoomLabel);
             Controls.Add(InitialRoomInput);
@@ -78,6 +89,7 @@ namespace PATHFORMING_IV
             Controls.Add(DirectiosnOutput);
             Controls.Add(GoButton);
             Controls.Add(MapButton);
+            Controls.Add(MapImage);
 
             StreamReader apple = new StreamReader("U:/connections.txt");
             List<string> tree = new List<string>();   //makes list with <datatype> name = new List <datatype>()
@@ -249,7 +261,7 @@ namespace PATHFORMING_IV
             {
                 foreach (string roomname in roomnames)
                 {
-                    if (textyBox.Text.ToUpper() == roomname.ToUpper())
+                    if (textyBox.Text == roomname)
                     {
                         val = true;
                     }
@@ -282,8 +294,20 @@ namespace PATHFORMING_IV
         }
         public void MapButton_Clicked(object sender, EventArgs e)
         {
-            Form form2 = new Form2();
-            form2.Show();
+            PictureBox MapImage = Controls["MapImage"] as PictureBox;
+            if (imagehidden)
+            {
+                this.Size = new Size(1400, 540);
+                MapImage.Show();
+                imagehidden = false;
+            }
+            else
+            {
+                this.Size = new Size(960, 540);
+                MapImage.Hide();
+                imagehidden = true;
+            }
+            
         }
 
     }
