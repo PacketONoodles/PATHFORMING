@@ -1,11 +1,11 @@
 ﻿using System.Diagnostics.Metrics;
-using static PATHFORMING_IV.Form1;
+using static PATHFORMING_IV.InputForm;
 
 namespace PATHFORMING_IV
 {
-    public partial class Form1 : Form
+    public partial class InputForm : Form
     {
-        public Form1()
+        public InputForm()
         {
             InitializeComponent();
         }
@@ -14,7 +14,7 @@ namespace PATHFORMING_IV
         public static Graph school = new Graph(197);
         public static string pathways = "";
 
-        public void Form1_Load(object sender, EventArgs e)
+        public void InputForm_Load(object sender, EventArgs e)
         {
             this.Size = new Size(960, 540);
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -282,8 +282,8 @@ namespace PATHFORMING_IV
         }
         public void MapButton_Clicked(object sender, EventArgs e)
         {
-            Form form2 = new Form2();
-            form2.Show();
+            Form ImageForm = new ImageForm();
+            ImageForm.Show();
         }
 
     }

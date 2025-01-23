@@ -1,6 +1,6 @@
 ﻿namespace PATHFORMING_IV
 {
-    partial class Form1
+    partial class InputForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,14 +30,14 @@
         {
             SuspendLayout();
             // 
-            // Form1
+            // InputForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(944, 501);
-            Name = "Form1";
-            Text = "Form1";
-            Load += Form1_Load;
+            Name = "InputForm";
+            Text = "InputForm";
+            Load += InputForm_Load;
             ResumeLayout(false);
         }
 

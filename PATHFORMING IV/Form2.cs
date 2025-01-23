@@ -11,14 +11,14 @@ using static System.Windows.Forms.DataFormats;
 
 namespace PATHFORMING_IV
 {
-    public partial class Form2 : Form
+    public partial class ImageForm : Form
     {
-        public Form2()
+        public ImageForm()
         {
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void ImageForm_Load(object sender, EventArgs e)
         {
             //1.53676470588
             //0.65071770334
